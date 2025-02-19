@@ -1,0 +1,204 @@
+/*Mentorship Plans*/
+
+.plans{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url("dark-abstract-black-low-poly-n1-1920x1200.jpg");
+    background-size: contain;
+}
+  
+.container {
+    width: 90%;
+    height: 100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:1.8rem;
+}
+
+.plan {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.plan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.plan h2 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.plan p {
+    color: #282828;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.plan li {
+    margin-bottom: 10px;
+    color: #282828;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #232323;
+}
+
+.price span {
+    color: #5b5b5b;
+    text-decoration: line-through;
+    margin-left: 10px;
+    font-size: 0.9em;
+    position: relative; 
+}
+
+
+.price span::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -5px; 
+    right: 5px; 
+    height: 1px;
+    background-color: #888;
+    transform: rotate(-10deg); 
+}
+
+
+#vision2026 {
+    background: linear-gradient(to bottom right, #f0efeb, #c7c5c1);
+}
+
+#aspire2027 {
+    background: linear-gradient(to bottom right, #e9f0ff, #d1e1ff);
+}
+
+#focusIgnite {
+    background: linear-gradient(to bottom right, #ffe9e9, #ffd1d1);
+}
+
+#januarySprint {
+    background: linear-gradient(to bottom right, #fff9c4, #fff176);
+}
+
+#dualMastery {
+    background: linear-gradient(to bottom right, #e1bee7, #9575cd); 
+}
+
+#careerNavigator {
+    background: linear-gradient(to bottom right, #bbdefb, #64b5f6); 
+}
+
+
+.box {
+    width: 90%;
+    height: 100%;
+    max-width: 1200px; 
+    margin-top: 5rem;
+    margin-bottom: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:1.8rem;
+}
+
+.plan {
+    width:25%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden; 
+    position: relative; 
+    flex: 1 0 25%; 
+}
+
+<section id="Mentorship">
+
+<div class="plans">
+
+    <div class="container">
+        <div class="plan" id="vision2026">
+            <h2>Vision 2026</h2>
+            <p>For JEE (Mains + Advanced) 2026</p>
+            <ul>
+                <li>One-on-One Mentorship</li>
+                <li>24 Sessions</li>
+                <li>Expert Mentor</li>
+                <li>Toppers' Short Notes</li>
+                <li>Exclusive Tips & Tricks</li>
+                <li>Personalized Study Plan</li>
+                <li>Flexible Schedule</li>
+                <li>Validity - Till JEE Adv'26</li>
+            </ul>
+            <div class="price">
+                ₹4999 <span>₹6999</span>
+            </div>
+        </div>
+    </div>    
+
+        <div class="plan" id="januarySprint">
+            <h2>January Sprint</h2>
+            <p>For JEE Mains - Jan'25 Attempt</p>
+            <ul>
+                <li>One-on-One Mentorship</li>
+                <li>3 Sessions</li>
+                <li>Paper Attempting Techniques</li>
+                <li>Quick Revision Techniques</li>
+                <li>Exclusive Tips & Tricks</li>
+                <li>Last-Minute Preparation Hacks</li>
+                <li>Exam Day Guidelines</li>
+                <li>Validity Till 31st Jan'25</li>
+            </ul>
+            <div class="price">
+                ₹699 <span>₹999</span>
+            </div>
+        </div>
+        
+        <div class="plan" id="careerNavigator">
+            <h2>Career Navigator</h2>
+            <p>Expert Career Counselling</p>
+            <ul>
+                <li>One-on-One Mentorship</li>
+                <li>3 Sessions</li>
+                <li>Expert Insights</li>
+                <li>Career Mapping</li>
+                <li>Goal Setting</li>
+                <li>Personalized Guidance</li>
+                <li>Flexible Schedule</li>
+                <li>Validity - 1 Month</li>
+            </ul>
+            <div class="price">
+                ₹999 <span>₹1499</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
