@@ -5,7 +5,7 @@ let links = {
     offer1: "https://rzp.io/rzp/HYdnah4l",
     offer2: "https://rzp.io/rzp/a0qRhJw",
     offer3: "https://rzp.io/rzp/ITVpN4c",
-    offer4: "https://rzp.io/rzp/akioPgL",
+    offer4: "https://rzp.io/rzp/6MFeur9",
 };
 
 // let trial = {
