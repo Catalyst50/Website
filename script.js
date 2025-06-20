@@ -113,6 +113,7 @@ function Temp() {
 // // Run after the DOM is fully loaded
 window.onload = function () {
     Temp();
+    updateLinks();
 //     TrialSession();
 //     AdvanceButton();
 };
