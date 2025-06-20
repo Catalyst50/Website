@@ -97,14 +97,14 @@ function Temp() {
 
     if (offer3) {
         offer3.addEventListener("click", function () {
-            // updateLinks();
+            updateLinks();
             window.open(links.offer3, "_blank");
         });
     }
 
     if (offer4) {
         offer4.addEventListener("click", function () {
-            // updateLinks();
+            updateLinks();
             window.open(links.offer4, "_blank");
         });
     }
@@ -113,7 +113,6 @@ function Temp() {
 // // Run after the DOM is fully loaded
 window.onload = function () {
     Temp();
-    updateLinks();
 //     TrialSession();
 //     AdvanceButton();
 };
