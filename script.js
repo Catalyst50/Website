@@ -4,8 +4,8 @@
 let links = {
     // offer1: "https://rzp.io/rzp/HYdnah4l",
     // offer2: "https://rzp.io/rzp/a0qRhJw",
-    offer3: "https://rzp.io/rzp/XII3sap",
-    offer4: "https://rzp.io/rzp/i6fiAMV",
+    offer3: "https://rzp.io/rzp/ITVpN4c",
+    offer4: "https://rzp.io/rzp/6MFeur9",
 };
 
 // let trial = {
@@ -53,7 +53,7 @@ function updateLinks() {
 
     let coupons = {
         // "MS10": ["https://rzp.io/rzp/UbX92oI", "https://rzp.io/rzp/wlkod28", "https://rzp.io/rzp/bGE1tWMg"],
-        "PS10": ["https://rzp.io/rzp/RvIdYcr", "https://rzp.io/rzp/3VQetUG"],
+        "PS10": ["https://rzp.io/rzp/XII3sap", "https://rzp.io/rzp/i6fiAMV"],
         // "OK10": ["https://rzp.io/rzp/Zapgw72", "https://rzp.io/rzp/ocTHAh3", "https://rzp.io/rzp/95jyu8Q"],
         // "KS10": ["https://rzp.io/rzp/MvLwyoW", "https://rzp.io/rzp/bKBXYtW", "https://rzp.io/rzp/xap5wSu9"],
         // "HR10": ["https://rzp.io/rzp/5zzOzV4", "https://rzp.io/rzp/nhCE3ILF", "https://rzp.io/rzp/7bNfjJ3"],
