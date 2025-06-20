@@ -47,33 +47,33 @@ const price4 = document.getElementsByClassName("price4");
 // }
 
 // // Function to update links based on input
-// // function updateLinks() {
-// //     let input = prompt("Enter your coupon code (if any) or Click Cancel");
-// //     if (!input) return;
+function updateLinks() {
+    let input = prompt("Enter your coupon code (if any) or Click Cancel");
+    if (!input) return;
 
-// //     let coupons = {
-// //         "MS10": ["https://rzp.io/rzp/UbX92oI", "https://rzp.io/rzp/wlkod28", "https://rzp.io/rzp/bGE1tWMg"],
-// //         "PS10": ["https://rzp.io/rzp/Dg67Fcf", "https://rzp.io/rzp/RvIdYcr", "https://rzp.io/rzp/3VQetUG"],
-// //         "OK10": ["https://rzp.io/rzp/Zapgw72", "https://rzp.io/rzp/ocTHAh3", "https://rzp.io/rzp/95jyu8Q"],
-// //         "KS10": ["https://rzp.io/rzp/MvLwyoW", "https://rzp.io/rzp/bKBXYtW", "https://rzp.io/rzp/xap5wSu9"],
-// //         "HR10": ["https://rzp.io/rzp/5zzOzV4", "https://rzp.io/rzp/nhCE3ILF", "https://rzp.io/rzp/7bNfjJ3"],
-// //         "DR10": ["https://rzp.io/rzp/c9imeHDT", "https://rzp.io/rzp/RL4EFv4h", "https://rzp.io/rzp/v4qC0QQ"],
-// //         "BD10": ["https://rzp.io/rzp/rOOv0n4", "https://rzp.io/rzp/jSV4DUGh", "https://rzp.io/rzp/fEfd8Od"],
-// //         "AJ10": ["https://rzp.io/rzp/NBgsu4v", "https://rzp.io/rzp/GH6NVAK", "https://rzp.io/rzp/fEfd8Od"],
-// //         "SD10": ["https://rzp.io/rzp/ZqJxZiXj", "https://rzp.io/rzp/6jX1CTX", "https://rzp.io/rzp/cIKxQt1h"],
-// //         "AG10": ["https://rzp.io/rzp/kITB75W", "https://rzp.io/rzp/QLG7nLl5", "https://rzp.io/rzp/m2JDmHW"],
-// //         "SG10": ["https://rzp.io/rzp/6chTI65", "https://rzp.io/rzp/tRupzHy", "https://rzp.io/rzp/TrNelD6"],
-// //         "KJ10": ["https://rzp.io/rzp/tpCYa3b", "https://rzp.io/rzp/1dfv2Gq", "https://rzp.io/rzp/KRwTmvJl"],
-// //         "AM10": ["https://rzp.io/rzp/fo0L3as8", "https://rzp.io/rzp/E1KbnQN", "https://rzp.io/rzp/Z1cy4D0X"]
-// //     };
+    let coupons = {
+        // "MS10": ["https://rzp.io/rzp/UbX92oI", "https://rzp.io/rzp/wlkod28", "https://rzp.io/rzp/bGE1tWMg"],
+        "PS10": ["https://rzp.io/rzp/RvIdYcr", "https://rzp.io/rzp/3VQetUG"],
+        // "OK10": ["https://rzp.io/rzp/Zapgw72", "https://rzp.io/rzp/ocTHAh3", "https://rzp.io/rzp/95jyu8Q"],
+        // "KS10": ["https://rzp.io/rzp/MvLwyoW", "https://rzp.io/rzp/bKBXYtW", "https://rzp.io/rzp/xap5wSu9"],
+        // "HR10": ["https://rzp.io/rzp/5zzOzV4", "https://rzp.io/rzp/nhCE3ILF", "https://rzp.io/rzp/7bNfjJ3"],
+        // "DR10": ["https://rzp.io/rzp/c9imeHDT", "https://rzp.io/rzp/RL4EFv4h", "https://rzp.io/rzp/v4qC0QQ"],
+        // "BD10": ["https://rzp.io/rzp/rOOv0n4", "https://rzp.io/rzp/jSV4DUGh", "https://rzp.io/rzp/fEfd8Od"],
+        // "AJ10": ["https://rzp.io/rzp/NBgsu4v", "https://rzp.io/rzp/GH6NVAK", "https://rzp.io/rzp/fEfd8Od"],
+        // "SD10": ["https://rzp.io/rzp/ZqJxZiXj", "https://rzp.io/rzp/6jX1CTX", "https://rzp.io/rzp/cIKxQt1h"],
+        // "AG10": ["https://rzp.io/rzp/kITB75W", "https://rzp.io/rzp/QLG7nLl5", "https://rzp.io/rzp/m2JDmHW"],
+        // "SG10": ["https://rzp.io/rzp/6chTI65", "https://rzp.io/rzp/tRupzHy", "https://rzp.io/rzp/TrNelD6"],
+        // "KJ10": ["https://rzp.io/rzp/tpCYa3b", "https://rzp.io/rzp/1dfv2Gq", "https://rzp.io/rzp/KRwTmvJl"],
+        // "AM10": ["https://rzp.io/rzp/fo0L3as8", "https://rzp.io/rzp/E1KbnQN", "https://rzp.io/rzp/Z1cy4D0X"]
+    };
 
-// //     if (coupons[input]) {
-// //         [links.offer2, links.offer3, links.offer4] = coupons[input];
-// //         alert("Coupon applied! Click on Join Once again and Click Cancel");
-// //     } else {
-// //         alert("Invalid Coupon Code, Click OK");
-// //     }
-// // }
+    if (coupons[input]) {
+        [links.offer3, links.offer4] = coupons[input];
+        alert("Coupon applied! Click on Join Once again and Click Cancel");
+    } else {
+        alert("Invalid Coupon Code, Click OK");
+    }
+}
 
 // Attach event listeners to the divs
 function Temp() {
