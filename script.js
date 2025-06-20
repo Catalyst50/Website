@@ -2,10 +2,10 @@
 
 // Default links (without coupon)
 let links = {
-    offer1: "https://rzp.io/rzp/HYdnah4l",
-    offer2: "https://rzp.io/rzp/a0qRhJw",
-    offer3: "https://rzp.io/rzp/ITVpN4c",
-    offer4: "https://rzp.io/rzp/6MFeur9",
+    // offer1: "https://rzp.io/rzp/HYdnah4l",
+    // offer2: "https://rzp.io/rzp/a0qRhJw",
+    offer3: "https://rzp.io/rzp/XII3sap",
+    offer4: "https://rzp.io/rzp/i6fiAMV",
 };
 
 // let trial = {
@@ -16,8 +16,8 @@ let links = {
 //     link1: "https://rzp.io/rzp/HYdnah4l"
 // }
 
-const price1 = document.getElementsByClassName("price1");
-const price2 = document.getElementsByClassName("price2");
+// const price1 = document.getElementsByClassName("price1");
+// const price2 = document.getElementsByClassName("price2");
 const price3 = document.getElementsByClassName("price3");
 const price4 = document.getElementsByClassName("price4");
 
@@ -77,23 +77,23 @@ const price4 = document.getElementsByClassName("price4");
 
 // Attach event listeners to the divs
 function Temp() {
-    let offer1 = document.getElementById("offer1");
-    let offer2 = document.getElementById("offer2");
+    // let offer1 = document.getElementById("offer1");
+    // let offer2 = document.getElementById("offer2");
     let offer3 = document.getElementById("offer3");
     let offer4 = document.getElementById("offer4");
 
-    if (offer1) {
-        offer1.addEventListener("click", function () {
-            window.open(links.offer1, "_blank");
-        });
-    }
+    // if (offer1) {
+    //     offer1.addEventListener("click", function () {
+    //         window.open(links.offer1, "_blank");
+    //     });
+    // }
 
-    if (offer2) {
-        offer2.addEventListener("click", function () {
-            // updateLinks();
-            window.open(links.offer2, "_blank");
-        });
-    }
+    // if (offer2) {
+    //     offer2.addEventListener("click", function () {
+    //         // updateLinks();
+    //         window.open(links.offer2, "_blank");
+    //     });
+    // }
 
     if (offer3) {
         offer3.addEventListener("click", function () {
